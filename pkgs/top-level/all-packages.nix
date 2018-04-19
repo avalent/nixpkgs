@@ -17103,6 +17103,8 @@ with pkgs;
     pulseaudioSupport = config.pulseaudio or true;
   };
 
+  oci-cli = callPackage ../tools/admin/oci-cli { };
+
   octoprint = callPackage ../applications/misc/octoprint { };
 
   octoprint-plugins = callPackage ../applications/misc/octoprint/plugins.nix { };
