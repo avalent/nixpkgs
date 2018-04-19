@@ -3711,6 +3711,8 @@ in {
     };
   };
 
+  oci = callPackage ../development/python-modules/oci { };
+
   odfpy = callPackage ../development/python-modules/odfpy { };
 
   oset = callPackage ../development/python-modules/oset { };
